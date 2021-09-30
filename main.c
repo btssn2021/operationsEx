@@ -12,12 +12,12 @@ int main() {
     printf("%d",nbaleatoire);
 
 
-    //TODO proposition du joueur
+    //proposition du joueur
     printf("Veuillez choisir un chiffre entre 1 et 9\n");
     scanf("%d",&proposition);
 
     if(isdigit((char)proposition)==0) {  //test si l'entier est bien nombre
-        //TODO test si vrai ou faux
+        // test si vrai ou faux
         if (nbaleatoire == proposition) {
             printf("Gagné!!");
         } else {
